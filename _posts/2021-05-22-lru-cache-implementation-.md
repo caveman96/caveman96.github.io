@@ -16,20 +16,20 @@ So if we assume that ordering is maintained in the order of access, insertion wi
 
 Since it is a cache, it is also important to provide easy access (in o(1) preferably) so we will need to maintain a hashmap of elements currently in the cache for fast random access. Both of these can be combined by using a data structure like orderedDict (python) or linkedListMap (Java), but i’m keeping them separate for the sake of simplicity
 
-##Algorithm:
+## Algorithm:
 
-###Initialize:
+### Initialize:
 1. Create head and tail references for the linked list.
 2. Initialize an empty hashmap.
 
-###Get element from cache:
+### Get element from cache:
 1. If element is in map, return element, otherwise return -1
 
-###Add element to cache:
+### Add element to cache:
 1. Create a node, add it to map and make it the head of the linked list
 2. If size of cache exceeds max size, then remove the tail element and remove it from the map
 
-##Python Code
+## Python Code
 
 ```python
 class Node:
