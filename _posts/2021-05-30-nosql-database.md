@@ -14,7 +14,7 @@ I'm sure most people have heard of a noSQL database. I've heard too, but unfortu
 
 Quite simply a noSQL database is one that stores data in a non relational format. To understand what noSQL entails, its easier to see what comes with traditional relational databases. 
 
-Relational databases involve tables of fixed columns which are linked to each other via key references. The language used to execute queries to fetch data from these tables is SQL. Its clear to see that relational databases are deeply tied down to object oriented modeling techniques, where each class corresponds to a table in the db. The problem with relational databases is that it can be quite inflexible, it doesn't translate well to non object oriented domains and it doesn't play will with distributed systems, both ease as well as performance wise. 
+Relational databases involve tables of fixed columns which are linked to each other via key references. The language used to execute queries to fetch data from these tables is SQL. Its clear to see that relational databases are deeply tied down to object oriented modeling techniques, where each class corresponds to a table in the db. The problem with relational databases is that it can be quite inflexible, it doesn't translate well to non object oriented domains and it doesn't play well with distributed systems, both ease as well as performance wise. 
 
 NoSQL databases tackle these issues by providing something that is less tightly coupled and is much more flexible in terms of design (supposedly, we'll find out soon enough). They allow the storage and retrieval of a variety of data types and formats. You get flexibility and better performance at the expense of storage since its not as structured and minimal as a relational DB.
 
