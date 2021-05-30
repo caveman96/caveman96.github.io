@@ -1,15 +1,16 @@
 ---
 title: What is a noSQL DB, and why you should use one.
 author: Silesh Chandran
-date: 2021-05-30 20:10:00 -0530
+date: 2021-05-30 20:10:00 +0530
 categories: [basics, backend]
 tags: [backend, java, mongodb, nosql, database]
+toc: true
 comments: true
 ---
 
 I'm sure most people have heard of a noSQL database. I've heard too, but unfortunately have never had the chance to work with one. I will try to remedy that with this post, by understanding what a noSQL DB why one would want to use it instead of a relational database. I've been going through a couple of resources and these are my learnings.
 
-### What is a noSQL DB?
+## What is a noSQL DB?
 
 Quite simply a noSQL database is one that stores data in a non relational format. To understand what noSQL entails, its easier to see what comes with traditional relational databases. 
 
