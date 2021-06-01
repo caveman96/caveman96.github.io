@@ -8,7 +8,7 @@ toc: true
 comments: true
 ---
 
-Most people know whats a relational Database, we learn about it in college. You create tables, insert data, perform joins and run queries with SQL. But this is not your only option if you need a database. Something that's been gaining a lot of traction lately is the use of NoSQL databases. I've unfortunately never had to work with a noSQL database and I am remedying that with this post, by understanding exactly what these bring to the table and why someone would use it.
+Most people know whats a relational Database. You create tables, insert data, perform joins and run queries with SQL. But this is not your only option if you need a database. Something that's been gaining a lot of traction lately is the use of NoSQL databases. I've unfortunately never had to work with a noSQL database and I am remedying that with this post, by understanding exactly what these bring to the table and why someone would use it.
 
 ## What is a noSQL DB?
 
