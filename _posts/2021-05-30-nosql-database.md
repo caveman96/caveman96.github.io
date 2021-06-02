@@ -8,7 +8,7 @@ toc: true
 comments: true
 ---
 
-Most people know whats a relational Database. You create tables, insert data, perform joins and run queries with SQL. But this is not your only option if you need a database. Something that's been gaining a lot of traction lately is the use of NoSQL databases. I've unfortunately never had to work with a noSQL database and I am remedying that with this post, by understanding exactly what these bring to the table and why someone would use it.
+Most people know what's a relational Database, you create tables, insert data, perform joins and run queries with SQL. But this is not your only option if you need a database. Something that's been gaining a lot of traction lately is the use of NoSQL databases. I've unfortunately never had to work with a noSQL database and I am remedying that with this post, by understanding exactly what these bring to the table and why someone would use it.
 
 ## What is a noSQL DB?
 
@@ -31,7 +31,7 @@ These are similar to in memory maps that are available in most programming langu
 ![Desktop View](https://upload.wikimedia.org/wikipedia/commons/5/5b/KeyValue.PNG)
 
 ### Wide-column stores
-These store data in tables, rows, and dynamic columns. These are similar to relational databases in structure but with the added flexibility of not being limited to fixed columns per row. They can be thought of as two dimensional key-value databases. Cassandra and Hbase are examples. 
+These store data in a table with key mapped rows and dynamic columns. They are similar to relational databases in structure but with the added flexibility of not being limited to fixed columns per row. They can be thought of as two dimensional key-value databases. Cassandra and Hbase are examples. 
 
 Hbase is built based on google bigTable, and I found its design quite interesting. It feels like a mash up of relational, document and key-value databases. Each row in the table is accessed by a key which can be arbitrary strings. There are fixed column families and these are populated per record/object similar to a relational DB. A column family stores any number of related information, similar to a document store. Number of families are expected to be constant, whereas a family may contain as many columns as needed.
 (more info in this [**paper**](https://research.google/pubs/pub27898/)
