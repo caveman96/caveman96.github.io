@@ -2,7 +2,7 @@
 title: What is a noSQL DB, and why you should use one.
 author: Silesh Chandran
 date: 2021-05-30 20:10:00 +0530
-categories: [basics, backend]
+categories: [backend, basics]
 tags: [backend, java, mongodb, nosql, database]
 toc: true
 comments: true
