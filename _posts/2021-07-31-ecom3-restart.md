@@ -25,7 +25,7 @@ This is my reasoning, but I could be wrong. Feel free to correct me in the comme
 
 We will be using NodeJs, which is a backend javascript runtime, that allows executing javascript out of a browser, and Express, which is a web framework that will quickly allow us to create APIs. We will also make of npm, which is similar to Maven in java in the way that it allows us to manage dependancies. A version manager makes managing and installing these much easier so lets use nvm as well.
 
-First download and install nvm (win- https://github.com/coreybutler/nvm-windows mac/linux- https://github.com/nvm-sh/nvm)
+First download and install nvm ([**windows**](https://github.com/coreybutler/nvm-windows) [**mac/linux**](https://github.com/nvm-sh/nvm) )
 then run:
 ```shell
 nvm install 14.17.3
@@ -94,6 +94,11 @@ ATLAS_URI=mongodb+srv://<username>:<password>@cluster0.sqirz.mongodb.net/myFirst
 
 This server can be started by running:
 ```
+node server.js
+```
+Incidentaly we can make use of a tool called nodemon, which automatically restarts the server when changes are made:
+```
+npm install -g nodemon
 nodemon server.js
 ```
 It should print both the console logs we have added.
@@ -238,7 +243,7 @@ We have added 5 api endpoints (one each for get, get by id, post, update and del
  
 ## Registering routers in Server.js
 
-Now that we have 2 routes, we need to add these with a corresponding path in server.js. Whenever the url follows that path, the corresponding route is used and the request is executed from there. 
+Now that we have 2 routes, we need to add these with a corresponding path in server.js. Whenever the url follows that path, the corresponding route is used and the request is executed from there. So add the following as well to server.js and start it for testing. 
 
 ```javascript
 //load routes
