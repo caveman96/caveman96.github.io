@@ -46,7 +46,7 @@ this will create the package.json required for npm and dependancies. The default
 npm install express cors mongoose dotenv
 ```
 
- And that should be all for setting up. You can install nodemon which allows you to hot reload the server after making changes.
+ And that should be all for setting up. 
 
 ### Server code
 
@@ -96,7 +96,7 @@ This server can be started by running:
 ```
 node server.js
 ```
-Incidentaly we can make use of a tool called nodemon, which automatically restarts the server when changes are made:
+Incidentaly we can make use of a tool called nodemon, which allows you to hot reload the server automatically after making changes.:
 ```
 npm install -g nodemon
 nodemon server.js
